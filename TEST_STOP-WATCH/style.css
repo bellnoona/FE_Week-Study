@@ -1,0 +1,111 @@
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0;
+  color: white;
+}
+
+/* 스탑워치 컨테이너 */
+#stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 25%;
+  height: 40%;
+  margin: 0 auto;
+}
+
+.stopwatch__board {
+  font-size: 40px;
+}
+
+.stopwatch__record-list li {
+  margin-right: 13px;
+}
+
+.stopwatch__record-list li span {
+  font-weight: 600;
+}
+
+/* 버튼 */
+.stopwatch__btn-wrap {
+  /* display: flex;
+  justify-content: space-around; */
+  margin-top: 20px;
+}
+
+/* 랩 버튼 */
+.stopwatch__btn-lab {
+  padding: 25px 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0 0 5px 2px gray;
+  color: #fff;
+  font-weight: 600;
+  background-color: gray;
+  opacity: 0.9;
+}
+
+/* 시작 버튼 */
+.stopwatch__btn-start {
+  padding: 25px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0 0 5px 2px green;
+  color: #fff;
+  font-weight: 600;
+  background-color: green;
+  opacity: 0.9;
+}
+
+/* 정지 버튼 */
+.stopwatch__btn-stop {
+  padding: 25px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0 0 5px 2px red;
+  color: #fff;
+  font-weight: 600;
+  background-color: red;
+  opacity: 0.9;
+}
+
+/* 리셋 버튼 */
+.stopwatch__btn-reset {
+  padding: 25px 18px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  box-shadow: 0 0 5px 2px #353b48;
+  color: #fff;
+  font-weight: 600;
+  background-color: #353b48;
+  opacity: 0.9;
+}
